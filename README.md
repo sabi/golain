@@ -4,7 +4,7 @@
 - Prerequisite: [Install Go](https://go.dev/doc/install)
 - Pull this repo: `git pull https://github.com/sabi/golain.git` or [Download the zip](https://github.com/sabi/golain/archive/refs/heads/main.zip)
 - Enter the directory or unzip and change directory
-- `go install`
+- `go install` or `go build` to compile the binary
 
 ## Usage
 - `golain msg -c DISCORD_CHANNEL "Your message goes here"`

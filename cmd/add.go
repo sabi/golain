@@ -31,6 +31,14 @@ var addCmd = &cobra.Command{
 				panic(err)
 			}
 		defer f.Close() // Close the file after the block of text is done
+		if Channel == "" {
+			fmt.Println("Channel not set") 
+			return
+		}
+		if Webhook == "" {
+			fmt.Println("Webhook not set") 
+			return
+		}
 		line := Channel + " = " + Webhook + "\n"
 		if _, err = f.WriteString(line); err != nil {
 			panic(err)
