@@ -1,8 +1,14 @@
 # golain - Lain: CLI-to-Discord Utility written in Golang
 
+## Install
+- Prerequisite: [Install Go](https://go.dev/doc/install)
+- Pull this repo: `git pull https://github.com/sabi/golain.git` or [Download the zip](https://github.com/sabi/golain/archive/refs/heads/main.zip)
+- Enter the directory or unzip and change directory
+- `go install`
+
 ## Usage
 - `golain msg -c DISCORD_CHANNEL "Your message goes here"`
-- `golain msg -c sabi_engineers "You're doing a great job!"
+- `golain msg -c sabi_engineers "You're doing a great job!"`
 
 ## Add New Discord Webhook
 - `golain add -c CHANNEL_NAME -w WEBHOOK`
